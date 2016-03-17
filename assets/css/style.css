@@ -21,16 +21,37 @@ table {
 
 /*********** CSS RESET END ************/
 
+@font-face {
+	font-family: "Tuffy";
+	src: url(../fonts/Tuffy-webfont.woff);
+}
+
+@font-face {
+	font-family: "League Gothic";
+	src: url("../fonts/leaguegothic-regular-webfont.ttf");
+}
+
+#mainHeading {
+	color: #ec5e46;
+	font-size: 60px;
+	font-family: League Gothic, Tahoma, sans-serif;
+	padding: 5px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
 header {
-	height: 200px;
+	height: 70px;
 	width: 100%;
-	background: url("../img/bg-darkGrey.png") repeat;
+	background: url("../img/bg-darkGrey.png");
 }
 
 #main {
 	height: 800px;
-	width: 50%;
-	background-color: limegreen;
+	background: url("../img/bg-darkGrey.png");
 	margin: auto;
 }
 

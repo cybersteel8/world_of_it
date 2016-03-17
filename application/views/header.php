@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . '/world_of_it/assets/css/style.css' ?>"/>
 </head>
 <header>
 

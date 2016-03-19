@@ -118,6 +118,14 @@ footer {
 	background-size: cover;
 }
 
+#pkg {
+	height: 600px;
+	width: 300px;
+	background-color: rgba(0,0,0,0.3);
+	float: left;
+	margin-right: 20px;
+}
+
 /* Small monitor size */
 @media (max-width: 1280px) {
 

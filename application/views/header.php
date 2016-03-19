@@ -6,7 +6,7 @@
 </head>
 <header>
 	<div class="container">
-		<h1 id="mainHeading">WORLD OF I.T</h1>
+		<p id="mainHeading">WORLD OF I.T</p>
 		<nav>
 			<ul>
 				<li><a href=""><p>HOME</p></a></li>
@@ -15,9 +15,11 @@
 				<li><a href=""><p>ABOUT</p></a></li>
 			</ul>
 		</nav>
-		<p id="logIn">LOG IN</p>
-		<p id="or">OR</p>
-		<p id="startNow">START NOW</p>
+		<div id="headerActions">
+			<a href=""><p id="boxButton" style="border: 1px solid #e5e5e5; color: #e5e5e5; float: right;">LOG IN</p></a>
+			<p style="font-size: 20px; color: #e5e5e5; float: right; padding:8px 5px 0px 5px;">OR</p>
+			<a href=""><p id="boxButton" style="float: right;">START NOW</p></a>
+		</div>
 	</div>
 </header>
 <body>

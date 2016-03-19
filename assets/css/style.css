@@ -4,6 +4,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	text-decoration: none;
 	vertical-align: baseline;
 }
 
@@ -23,7 +24,7 @@ table {
 
 @font-face {
 	font-family: "Tuffy";
-	src: url(../fonts/Tuffy-webfont.woff);
+	src: url("../fonts/Tuffy-webfont.woff");
 }
 
 @font-face {
@@ -36,6 +37,7 @@ table {
 	font-size: 60px;
 	font-family: League Gothic, Tahoma, sans-serif;
 	padding: 5px;
+	float: left;
 }
 
 .container {
@@ -47,6 +49,57 @@ header {
 	height: 70px;
 	width: 100%;
 	background: url("../img/bg-darkGrey.png");
+	box-shadow: 0px 50px 10px #000;
+}
+
+nav {
+	padding-top: 26px;
+	margin-left: 300px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin-left: 38px;
+}
+
+nav > ul > li > a > p {
+	font-family: League Gothic, Tahoma, sans-serif;
+	font-size: 26px;
+	color: #e5e5e5;
+}
+
+#startNow {
+	border-radius: 10px;
+	border: 1px solid #46d4ec;
+	font-family: League Gothic, Tahoma, sans-serif;
+	font-size: 24px;
+	color: #46d4ec;
+	padding: 4px 8px;
+	float: right;
+	position: relative;
+	bottom: 32px;
+}
+
+#or {
+	font-family: League Gothic, Tahoma, sans-serif;
+	font-size: 20px;
+	color: #e5e5e5;
+	float: right;
+	position: relative;
+	bottom: 24px;
+	padding: 0px 8px;
+}
+
+#logIn {
+	border-radius: 10px;
+	border: 1px solid #e5e5e5;
+	font-family: League Gothic, Tahoma, sans-serif;
+	font-size: 24px;
+	color: #e5e5e5;
+	padding: 4px 8px;
+	float: right;
+	position: relative;
+	bottom: 32px;
 }
 
 #carousel {
@@ -83,7 +136,7 @@ footer {
 	background: url("../img/bg-darkGrey.png");
 }
 
-/* Small screen size */
+/* Small monitor size */
 @media (max-width: 1280px) {
 
 }

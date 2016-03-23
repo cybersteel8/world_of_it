@@ -15,12 +15,11 @@
 				<li><a href=""><p>ABOUT</p></a></li>
 			</ul>
 		</nav>
-		<div id="headerActions">
-			<a href=""><p id="boxButton" style="border: 1px solid #e5e5e5; color: #e5e5e5; float: right;">LOG IN</p></a>
-			<p style="font-size: 20px; color: #e5e5e5; float: right; padding:8px 5px 0 5px;">OR</p>
-			<a href=""><p id="boxButton" style="float: right;">START NOW</p></a>
+		<div id="loginarea">
+			<a href=""><p class="boxButton" id="logIn">LOG IN</p></a>
+			<p id="or">OR</p>
+			<a href=""><p class="boxButton">START NOW</p></a>
 		</div>
 	</div>
 </header>
 <body>
-<!--asdasdbadjnasd-->

@@ -1,4 +1,3 @@
-</body>
 <footer>
 	<div class="container" style="max-width: 550px;">
 		<div id="findUsFb">
@@ -16,4 +15,5 @@
 		<p id="copyright-text">&copy; Copyright 2016 World of I.T. Pty. Ltd. All rights reserved. <a href="">PRIVACY STATEMENT</a> <a href="">SITEMAP</a></p>
 	</div>
 </footer>
+</body>
 </html>

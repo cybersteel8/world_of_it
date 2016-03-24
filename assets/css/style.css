@@ -84,11 +84,24 @@ footer {
 }
 
 .pkg-item {
-	width: 300px;
+	width: 260px;
 	background-color: rgba(0,0,0,0.3);
-	display: inline-block;
+	display: inline-table; /* why does this work instead of inline-block? */
 	margin-right: 20px;
 	text-align: left;
+	padding: 20px;
+	height: 600px;
+}
+
+.pkg-item-heading {
+	font-size: 54px;
+	color: #e5e5e5;
+}
+
+.pkg-item-text {
+	font-size: 18px;
+	font-family: Tuffy, Helvetica, sans-serif;
+	color: #e5e5e5;
 }
 
 .cta-text {
@@ -187,12 +200,12 @@ footer {
 	font-size: 22px;
 	display: inline;
 	position: relative;
-	bottom: 4px;
+	bottom: 8px;
 }
 
 #findUsFb img {
 	display: inline;
-	width: 26px;
+	height: 26px;
 	padding-right: 8px;
 }
 
@@ -207,12 +220,12 @@ footer {
 	font-size: 22px;
 	display: inline;
 	position: relative;
-	bottom: 2px;
+	bottom: 8px;
 }
 
 #emailUs img {
 	display: inline;
-	width: 32px;
+	height: 26px;
 	padding-left: 8px;
 }
 

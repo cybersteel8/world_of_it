@@ -18,8 +18,29 @@
 	</div>
 
 	<div id="packages-section">
-		<div class="pkg-item" style="height: 600px;"></div>
-		<div class="pkg-item" style="height: 600px;"></div>
-		<div class="pkg-item" style="height: 600px; margin-right: 0;"></div>
+		<div class="pkg-item">
+			<p class="pkg-item-heading">FREE</p>
+			<p class="pkg-item-text">
+				Basically nothing.<br /><br />
+				You might get an email from us.<br /><br />
+				Time is money, idiots.
+			</p>
+		</div>
+		<div class="pkg-item">
+			<p class="pkg-item-heading">MIDDLE MARK</p>
+			<p class="pkg-item-text">
+				This is somewhere in the middle.<br /><br />
+				No idea what will work.
+			</p>
+		</div>
+		<div class="pkg-item" style="margin-right: 0; text-align: right;">
+			<p class="pkg-item-heading">PAID</p>
+			<p class="pkg-item-text">
+				Definitely more than nothing.<br /><br />
+				You'll probably get a website out of us.<br /><br />
+				We may even meet you if the project is worth the time.<br /><br />
+				While stocks last! Our effort is limited!
+			</p>
+		</div>
 	</div>
 </main>

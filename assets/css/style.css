@@ -176,6 +176,18 @@ footer {
 	margin: auto;
 }
 
+#slider1_container	{
+	position: relative;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	width: 1300px;
+	height: 500px;
+	border-radius:5px;
+	overflow: hidden;
+	z-index:1;
+}
+
 #callToAction {
 	background: url("../img/bg-darkGrey.png");
 	text-align: center;
@@ -204,6 +216,7 @@ footer {
 	background: url("../img/sunset_skyline.png") 50% 40% no-repeat;
 	background-size: cover;
 	text-align: center;
+	padding: 50px;
 }
 
 #findUsFb {
@@ -258,7 +271,7 @@ footer {
 	font-size: 10px;
 }
 
-/** Credit to Ian Lunn @ GitHub https://github.com/IanLunn/ **/
+/*** Credit to Ian Lunn @ GitHub! https://github.com/IanLunn/ ***/
 
 /*Underline from left */
 .hvr-underline-from-left {

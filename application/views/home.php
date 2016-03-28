@@ -1,6 +1,6 @@
 <main>
 	<div id="carousel-section">
-
+	<div id="slider1_container"></div>
 	</div>
 
 	<div id="callToAction">

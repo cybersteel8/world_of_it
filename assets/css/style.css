@@ -293,19 +293,19 @@ footer {
 	display: block;
 	position: absolute;
 	/* size of arrow element */
-	width: 55px;
-	height: 55px;
+	width: 25px;
+	height: 60px;
 	cursor: pointer;
 	background: url("../img/slider/arrows.png") center center no-repeat;
 	overflow: hidden;
 }
 
-.jssora21l { background-position: -3px -33px; }
-.jssora21r { background-position: -63px -33px; }
-.jssora21l:hover { background-position: -123px -33px; }
-.jssora21r:hover { background-position: -183px -33px; }
-.jssora21l.jssora21ldn { background-position: -243px -33px; }
-.jssora21r.jssora21rdn { background-position: -303px -33px; }
+.jssora21l { background-position: -2px 5px; } /* left carat */
+.jssora21r { background-position: -63px 5px; } /* right carat */
+.jssora21l:hover { background-position: -31px 5px; } /* left hover */
+.jssora21r:hover { background-position: -88px 5px; } /* right hover */
+.jssora21l.jssora21ldn { background-position: -2px 5px; } /* left click */
+.jssora21r.jssora21rdn { background-position: -63px 5px; } /* right click */
 
 .jssorb05 {
 	position: absolute;

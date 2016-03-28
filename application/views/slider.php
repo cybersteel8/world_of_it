@@ -66,15 +66,13 @@ if(strpos($uri, "world_of_it")) {
 		}
 		?>
 
+		<span u="arrowleft" class="jssora21l" style="top: 203px; left: 100px;"></span>
+		<span u="arrowright" class="jssora21r" style="top: 203px; right: 100px;"></span>
+
 	    <!-- Navigator container -->
 	    <div u="navigator" class="jssorb05" style="bottom:42px; right:16px;">
 		    <!-- bullet navigator item prototype -->
 		    <div u="prototype" style="position: absolute; width:63px; height:16px;"></div>
 	    </div>
     </div>
-
-    <span u="arrowleft" class="jssora21l" style="top: 203px; left: 8px;">
-    </span>
-    <span u="arrowright" class="jssora21r" style="top: 203px; right: 8px;">
-    </span>
 </div>

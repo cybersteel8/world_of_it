@@ -13,7 +13,7 @@ jQuery(document).ready(function ($) {
 	_CaptionTransitions["MCLIP|R"] = { $Duration: 900, $Clip: 2, $Move: true, $Easing: { $Clip: $JssorEasing$.$EaseInOutCubic} };
 	
 	var options = {
-		$FillMode: 2,
+		$FillMode: 5,
 		$AutoPlay: true,
 		$HWA: true, 
 		$AutoPlayInterval: 4000,   
@@ -57,11 +57,11 @@ jQuery(document).ready(function ($) {
 
 	//"slider1_container" is the name of the div that the slider is connected to.
 	var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-	
+
 	function ScaleSlider() {
 		var bodyWidth = document.body.clientWidth;
 		if (bodyWidth)
-			jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1024));
+			jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1280));
 		else
 			window.setTimeout(ScaleSlider, 30);
 	}

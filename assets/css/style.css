@@ -83,6 +83,11 @@ footer {
 	padding: 6px 8px 4px 8px;
 }
 
+.slider_text {
+	font-family: Tuffy, Helvetica, sans-serif;
+	color: #e5e5e5;
+}
+
 .pkg-item {
 	width: 300px;
 	background-color: rgba(0,0,0,0.3);
@@ -170,7 +175,6 @@ footer {
 }
 
 #carousel-section {
-	height: 530px;
 	background: url("../img/peak.png") 50% 80% no-repeat;
 	background-size: cover;
 	margin: auto;
@@ -181,11 +185,24 @@ footer {
 	margin: 0 auto;
 	top: 0;
 	left: 0;
-	width: 1300px;
-	height: 500px;
+	width: 1280px;
+	height: 530px;
 	border-radius:5px;
 	overflow: hidden;
 	z-index:1;
+}
+
+#slider_list {
+	list-style: square inside url('../img/bullet.png');
+}
+
+#slider_image {
+	width: 500px;
+	position: relative;
+	top: 100px;
+	bottom: 100px;
+	left: 200px;
+	right: 0px;
 }
 
 #callToAction {

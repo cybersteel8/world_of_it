@@ -201,7 +201,7 @@ footer {
 	position: relative;
 	top: 100px;
 	bottom: 100px;
-	left: 200px;
+	left: 150px;
 	right: 0px;
 }
 
@@ -287,6 +287,45 @@ footer {
 	text-decoration: underline;
 	font-size: 10px;
 }
+
+/*** JSSOR Slider. Credit***/
+.jssora21l, .jssora21r {
+	display: block;
+	position: absolute;
+	/* size of arrow element */
+	width: 55px;
+	height: 55px;
+	cursor: pointer;
+	background: url("../img/slider/arrows.png") center center no-repeat;
+	overflow: hidden;
+}
+
+.jssora21l { background-position: -3px -33px; }
+.jssora21r { background-position: -63px -33px; }
+.jssora21l:hover { background-position: -123px -33px; }
+.jssora21r:hover { background-position: -183px -33px; }
+.jssora21l.jssora21ldn { background-position: -243px -33px; }
+.jssora21r.jssora21rdn { background-position: -303px -33px; }
+
+.jssorb05 {
+	position: absolute;
+}
+
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+	position: absolute;
+	/* size of bullet element */
+	width: 16px;
+	height: 16px;
+	background: url('../img/slider/bullets.png') no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+.jssorb05 div { background-position: -5px 0px; } /* inactive */
+.jssorb05 div:hover { background-position: -134px 0px;} /* inactive hover */
+.jssorb05 .av { background-position: -69px 0px; } /* active */
+.jssorb05 .av:hover { background-position: -198px 0px; } /* active hover */
+.jssorb05 .dn, .jssorb05 .dn:hover { } /* hold & hold hover */
+
 
 /*** Credit to Ian Lunn @ GitHub! https://github.com/IanLunn/ ***/
 

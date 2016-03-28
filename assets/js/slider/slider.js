@@ -49,7 +49,7 @@ jQuery(document).ready(function ($) {
 	
 		$ArrowNavigatorOptions: {
 			$Class: $JssorArrowNavigator$,
-			$ChanceToShow: 1,
+			$ChanceToShow: 2,
 			$AutoCenter: 0,
 			$Steps: 1
 		}

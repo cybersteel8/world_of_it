@@ -1,3 +1,6 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+$base_url = 'http://' . $_SERVER['SERVER_NAME'] . '/world_of_it/';
+?>
 <main>
 	<div id="carousel-section">
 		<?php include("slider.php"); ?>
@@ -7,7 +10,7 @@
 		<div class="container">
 			<p class="cta-text" style="color: #e5e5e5;">START A PROJECT WITH US TODAY.</p>
 			<p class="cta-text" style="color: #ec5e46; margin-left: 20px;" >CHOOSE A PACKAGE THAT SUITS YOU BEST.</p>
-			<a href=""><p class="boxButton hvr-radial-out-blue" id="startNow-CTA">START NOW</p></a>
+			<a href="<?php echo $base_url . 'quote/start-now-cta/' ?>"><p class="boxButton hvr-radial-out-blue" id="startNow-CTA">START NOW</p></a>
 		</div>
 	</div>
 
@@ -25,7 +28,7 @@
 				You might get an email from us.<br /><br />
 				Time is money, idiots.
 			</p>
-			<a href="">
+			<a href="<?php echo $base_url . 'quote/package-small/' ?>">
 				<div class="pkg-item-chooseButton hvr-back-pulse">
 					<p>CHOOSE THIS PACKAGE</p>
 				</div>
@@ -37,7 +40,7 @@
 				This is somewhere in the middle.<br /><br />
 				No idea what to write here.
 			</p>
-			<a href="">
+			<a href="<?php echo $base_url . 'quote/package-medium/' ?>">
 				<div class="pkg-item-chooseButton hvr-back-pulse">
 					<p>CHOOSE THIS PACKAGE</p>
 				</div>
@@ -51,7 +54,7 @@
 				We may even meet you if the project is worth the time.<br /><br />
 				While stocks last! Our effort is limited!
 			</p>
-			<a href="">
+			<a href="<?php echo $base_url . 'quote/package-large/' ?>">
 				<div class="pkg-item-chooseButton hvr-back-pulse">
 					<p>CHOOSE THIS PACKAGE</p>
 				</div>

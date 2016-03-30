@@ -33,7 +33,7 @@ table {
 	src: url("../fonts/leaguegothic-regular-webfont.ttf");
 }
 
-p {
+p, h1 {
 	font-family: "League Gothic", Tahoma, sans-serif;
 }
 
@@ -202,7 +202,7 @@ footer {
 	top: 100px;
 	bottom: 100px;
 	left: 150px;
-	right: 0px;
+	right: 0;
 }
 
 #callToAction {
@@ -320,10 +320,10 @@ footer {
 	overflow: hidden;
 	cursor: pointer;
 }
-.jssorb05 div { background-position: -5px 0px; } /* inactive */
-.jssorb05 div:hover { background-position: -134px 0px;} /* inactive hover */
-.jssorb05 .av { background-position: -69px 0px; } /* active */
-.jssorb05 .av:hover { background-position: -198px 0px; } /* active hover */
+.jssorb05 div { background-position: -5px 0; } /* inactive */
+.jssorb05 div:hover { background-position: -134px 0;} /* inactive hover */
+.jssorb05 .av { background-position: -69px 0; } /* active */
+.jssorb05 .av:hover { background-position: -198px 0; } /* active hover */
 .jssorb05 .dn, .jssorb05 .dn:hover { } /* hold & hold hover */
 
 

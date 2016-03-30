@@ -18,44 +18,46 @@
 	</div>
 
 	<div id="packages-section">
-		<div class="pkg-item hvr-ripple-out">
-			<p class="pkg-item-heading">FREE</p>
-			<p class="pkg-item-text">
-				Basically nothing.<br /><br />
-				You might get an email from us.<br /><br />
-				Time is money, idiots.
-			</p>
-			<a href="">
+		<a href="">
+			<div class="pkg-item hvr-ripple-out">
+				<p class="pkg-item-heading">FREE</p>
+				<p class="pkg-item-text">
+					Basically nothing.<br /><br />
+					You might get an email from us.<br /><br />
+					Time is money, idiots.
+				</p>
 				<div class="pkg-item-chooseButton hvr-back-pulse">
 					<p>CHOOSE THIS PACKAGE</p>
 				</div>
-			</a>
-		</div>
-		<div class="pkg-item hvr-ripple-out">
-			<p class="pkg-item-heading">THE OTHER ONE</p>
-			<p class="pkg-item-text">
-				This is somewhere in the middle.<br /><br />
-				No idea what to write here.
-			</p>
-			<a href="">
+			</div>
+		</a>
+		<a href="">
+			<div class="pkg-item hvr-ripple-out">
+				<p class="pkg-item-heading">THE OTHER ONE</p>
+				<p class="pkg-item-text">
+					This is somewhere in the middle.<br /><br />
+					No idea what to write here.
+				</p>
+
 				<div class="pkg-item-chooseButton hvr-back-pulse">
 					<p>CHOOSE THIS PACKAGE</p>
 				</div>
-			</a>
-		</div>
-		<div class="pkg-item hvr-ripple-out" style="margin-right: 0;">
-			<p class="pkg-item-heading" style="text-align: right;">PAID</p>
-			<p class="pkg-item-text" style="text-align: right;">
-				Definitely more than nothing.<br /><br />
-				You'll probably get a website out of us.<br /><br />
-				We may even meet you if the project is worth the time.<br /><br />
-				While stocks last! Our effort is limited!
-			</p>
-			<a href="">
+			</div>
+		</a>
+		<a href="">
+			<div class="pkg-item hvr-ripple-out" style="margin-right: 0;">
+				<p class="pkg-item-heading" style="text-align: right;">PAID</p>
+				<p class="pkg-item-text" style="text-align: right;">
+					Definitely more than nothing.<br /><br />
+					You'll probably get a website out of us.<br /><br />
+					We may even meet you if the project is worth the time.<br /><br />
+					While stocks last! Our effort is limited!
+				</p>
+
 				<div class="pkg-item-chooseButton hvr-back-pulse">
 					<p>CHOOSE THIS PACKAGE</p>
 				</div>
-			</a>
-		</div>
+			</div>
+		</a>
 	</div>
 </main>

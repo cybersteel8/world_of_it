@@ -64,6 +64,7 @@ footer {
 	padding: 20px;
 	background: url("../img/bg-darkGrey.png");
 	text-align: center;
+	box-shadow: 0 0 20px #000;
 }
 
 /*********** CLASSES ************/
@@ -339,7 +340,6 @@ footer {
 .jssorb05 .av:hover { background-position: -198px 0; } /* active hover */
 .jssorb05 .dn, .jssorb05 .dn:hover { } /* hold & hold hover */
 
-
 /*** Credit to Ian Lunn @ GitHub! https://github.com/IanLunn/ ***/
 
 /*Underline from left */
@@ -475,7 +475,6 @@ footer {
 		background-color: rgba(236, 94, 70, 0.65);
 	}
 }
-
 .hvr-back-pulse {
 	display: inline-block;
 	vertical-align: middle;

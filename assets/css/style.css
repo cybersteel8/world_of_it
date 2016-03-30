@@ -38,10 +38,10 @@ p {
 }
 
 header {
+	position: fixed;
 	width: 100%;
 	background: url("../img/bg-darkGrey.png");
 	box-shadow: 0 0 20px #000;
-	position: relative;
 	z-index: 2;
 }
 
@@ -83,9 +83,25 @@ footer {
 	padding: 6px 8px 4px 8px;
 }
 
+.slider_list {
+	list-style: square inside url('../img/bullet.png');
+	position: absolute;
+	top: 60px;
+	right: 380px;
+}
+
+.slider_header {
+	font-family: Tuffy, Helvetica, sans-serif;
+	color: #e5e5e5;
+	font-size: 24px;
+	position: absolute;
+	top: 20px;
+}
+
 .slider_text {
 	font-family: Tuffy, Helvetica, sans-serif;
 	color: #e5e5e5;
+	font-size: 16px;
 }
 
 .pkg-item {
@@ -144,10 +160,6 @@ footer {
 	display: inline-block;
 }
 
-.tuffy-font {
-	font-family: "Tuffy", "Trebuchet MS", sans-serif;
-}
-
 /*********** IDENTIFIERS ************/
 
 #mainHeading {
@@ -192,22 +204,25 @@ footer {
 	left: 0;
 	width: 1280px;
 	height: 530px;
-	border-radius:5px;
+	border-radius: 5px;
 	overflow: hidden;
-	z-index:1;
-}
-
-#slider_list {
-	list-style: square inside url('../img/bullet.png');
+	z-index: 1;
 }
 
 #slider_image {
 	width: 500px;
+	display: inline-block;
+}
+
+#slider_content_wrapper {
+	background: rgba(0,0,0,0.3);
 	position: relative;
-	top: 100px;
-	bottom: 100px;
-	left: 150px;
-	right: 0px;
+	top: 30px;
+	padding: 10px;
+	width: 980px;
+	height: 400px;
+	margin: auto;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5)
 }
 
 #callToAction {
@@ -273,8 +288,6 @@ footer {
 	bottom: 4px;
 }
 
-
-
 #copyright-text {
 	font-family: "Tuffy", "Trebuchet MS", sans-serif;
 	font-size: 10px;
@@ -302,7 +315,7 @@ footer {
 .jssora21l { background-position: -2px 5px; } /* left carat */
 .jssora21r { background-position: -63px 5px; } /* right carat */
 .jssora21l:hover { background-position: -31px 5px; } /* left hover */
-.jssora21r:hover { background-position: -88px 5px; } /* right hover */
+.jssora21r:hover { background-position: -90px 5px; } /* right hover */
 .jssora21l.jssora21ldn { background-position: -2px 5px; } /* left click */
 .jssora21r.jssora21rdn { background-position: -63px 5px; } /* right click */
 
@@ -354,8 +367,8 @@ footer {
 	transition-property: right;
 	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
+	-webkit-transition-timing-function: ease; /* line appear speed - Safari */
+	transition-timing-function: ease; /* line appear speed */
 }
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
 	right: 0;

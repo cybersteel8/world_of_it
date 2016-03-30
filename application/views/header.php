@@ -27,3 +27,4 @@
 			</div>
 		</div>
 	</header>
+	<div style="height: 70px; width: 100%;"></div>

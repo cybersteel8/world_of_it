@@ -33,46 +33,50 @@ if(strpos($uri, "world_of_it")) {
 }
 ?>
 <div id="slider1_container">
-    <!-- Loading Screen
-    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
-            top: 0px; left: 0px; width: 100%; height: 100%;">
-        </div>
-        <div style="position: absolute; display: block; background: url(<?php echo $imgRoot; ?>loading.gif) no-repeat center center;
-            top: 0px; left: 0px; width: 100%; height: 100%;">
-        </div>
-    </div> -->
-    <!-- Slides Container -->
-    <div u="slides" style="cursor: move; position: relative; left: 0; top: 0; width: 1280px;
-        height: 530px; overflow: hidden;">
+	<!-- Loading Screen
+	<div u="loading" style="position: absolute; top: 0px; left: 0px;">
+		<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+			top: 0px; left: 0px; width: 100%; height: 100%;">
+		</div>
+		<div style="position: absolute; display: block; background: url(<?php echo $imgRoot; ?>loading.gif) no-repeat center center;
+			top: 0px; left: 0px; width: 100%; height: 100%;">
+		</div>
+	</div> -->
+	<!-- Slides Container -->
+	<div u="slides" style="cursor: move; position: relative; left: 0; top: 0; width: 1280px;
+		height: 530px; overflow: hidden;">
 		<?php
 
 		for($i = 1; $i <= $numSlider; $i++) {
 		?>
-        <div>
-            <img u="caption" src="<?php echo $imgRoot . $image[$i]; ?>" id="slider_image" />
-            <div style="position: absolute; right: 200px; top: 100px;">
+		<div>
+			<img u="caption" src="<?php echo $imgRoot . $image[$i]; ?>" id="slider_image" />
+			<div style="position: absolute; right: 200px; top: 100px;">
 			<?php if($i == 1) { ?>
-                <p class="slider_text" style="font-size: 24px;">LOREM IPSUM DOLOR SIT AMET!</p>
+				<p class="slider_text" style="font-size: 24px;">LOREM IPSUM DOLOR SIT AMET!</p>
 				<ul id="slider_list">
 					<li><p class="slider_text" style="font-size: 16px; margin-top: 10px;">Test text</p></li>
 				</ul>
 			<?php } else if($i == 2) {?>
-				<p class="slider_text" style="">Slide Two!</p>
-            <?php } ?>
-            </div>
-        </div>
-        <?php
+				<p class="slider_text" style="font-size: 24px;">Slide Two!</p>
+			<?php } else if($i == 3) {?>
+				<p class="slider_text" style="font-size: 24px;">Slide Three!</p>
+			<?php } else if($i == 4) {?>
+				<p class="slider_text" style="font-size: 24px;">Slide Four!</p>
+			<?php } ?>
+			</div>
+		</div>
+		<?php
 		}
 		?>
 
 		<span u="arrowleft" class="jssora21l" style="top: 203px; left: 100px;"></span>
 		<span u="arrowright" class="jssora21r" style="top: 203px; right: 100px;"></span>
 
-	    <!-- Navigator container -->
-	    <div u="navigator" class="jssorb05" style="bottom:42px; right:16px;">
-		    <!-- bullet navigator item prototype -->
-		    <div u="prototype" style="position: absolute; width:63px; height:16px;"></div>
-	    </div>
-    </div>
+		<!-- Navigator container -->
+		<div u="navigator" class="jssorb05" style="bottom:42px; right:16px;">
+			<!-- bullet navigator item prototype -->
+			<div u="prototype" style="position: absolute; width:63px; height:16px;"></div>
+		</div>
+	</div>
 </div>

@@ -18,7 +18,7 @@
 	</div>
 
 	<div id="packages-section">
-		<div class="pkg-item">
+		<div class="pkg-item hvr-ripple-out">
 			<p class="pkg-item-heading">FREE</p>
 			<p class="pkg-item-text">
 				Basically nothing.<br /><br />
@@ -31,7 +31,7 @@
 				</div>
 			</a>
 		</div>
-		<div class="pkg-item">
+		<div class="pkg-item hvr-ripple-out">
 			<p class="pkg-item-heading">THE OTHER ONE</p>
 			<p class="pkg-item-text">
 				This is somewhere in the middle.<br /><br />
@@ -43,7 +43,7 @@
 				</div>
 			</a>
 		</div>
-		<div class="pkg-item" style="margin-right: 0;">
+		<div class="pkg-item hvr-ripple-out" style="margin-right: 0;">
 			<p class="pkg-item-heading" style="text-align: right;">PAID</p>
 			<p class="pkg-item-text" style="text-align: right;">
 				Definitely more than nothing.<br /><br />

@@ -11,7 +11,7 @@
 <body>
 	<header>
 		<div class="container">
-			<p id="mainHeading">WORLD OF I.T</p>
+			<a href=""><p id="mainHeading">WORLD OF I.T</p></a>
 			<nav>
 				<ul>
 					<li><a href=""><p class="hvr-underline-from-left">HOME</p></a></li>

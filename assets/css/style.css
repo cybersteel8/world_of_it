@@ -98,6 +98,11 @@ footer {
 	position: relative;
 }
 
+.pkg-item:hover {
+	box-shadow: 0 0 15px #131111;
+	cursor: pointer;
+}
+
 .pkg-item-heading {
 	font-size: 54px;
 	color: #e5e5e5;
@@ -242,14 +247,6 @@ footer {
 	left: 0;
 }
 
-#findUsFb p {
-	color: #e5e5e5;
-	font-size: 22px;
-	display: inline;
-	position: relative;
-	bottom: 8px;
-}
-
 #findUsFb img {
 	display: inline;
 	height: 26px;
@@ -262,19 +259,21 @@ footer {
 	right: 0;
 }
 
-#emailUs p {
+#emailUs img {
+	display: inline;
+	height: 24px;
+	padding-left: 8px;
+}
+
+#findUsFb p, #emailUs p {
 	color: #e5e5e5;
 	font-size: 22px;
 	display: inline;
 	position: relative;
-	bottom: 8px;
+	bottom: 4px;
 }
 
-#emailUs img {
-	display: inline;
-	height: 26px;
-	padding-left: 8px;
-}
+
 
 #copyright-text {
 	font-family: "Tuffy", "Trebuchet MS", sans-serif;
@@ -453,15 +452,16 @@ footer {
 
 /* Back Pulse */
 @-webkit-keyframes hvr-back-pulse {
-	50% {
-		background-color: rgba(236, 94, 70, 0.5);
+	65% {
+		background-color: rgba(236, 94, 70, 0.65);
 	}
 }
 @keyframes hvr-back-pulse {
-	50% {
-		background-color: rgba(236, 94, 70, 0.5);
+	65% {
+		background-color: rgba(236, 94, 70, 0.65);
 	}
 }
+
 .hvr-back-pulse {
 	display: inline-block;
 	vertical-align: middle;
@@ -477,7 +477,7 @@ footer {
 	-webkit-transition-property: color, background-color;
 	transition-property: color, background-color;
 }
-.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active, .pkg-item:hover div {
 	-webkit-animation-name: hvr-back-pulse;
 	animation-name: hvr-back-pulse;
 	-webkit-animation-duration: 1s;

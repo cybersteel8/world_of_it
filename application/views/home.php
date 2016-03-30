@@ -1,32 +1,61 @@
-<div id="container">
-	<div id="carousel">
-
+<main>
+	<div id="carousel-section">
+		<?php include("slider.php"); ?>
 	</div>
 
-	<div id="callToAction1">
-		<div style="padding: 12px 0px 0px 25%;">
-			<p style="color: #e5e5e5; font-size: 34px; float: left;">START A PROJECT WITH US TODAY.</p>
-			<p style="color: #ec5e46; font-size: 34px; float: left; margin-left: 20px;">CHOOSE A PACKAGE THAT SUITS YOU BEST.</p>
-			<a href=""><p id="boxButton" style="font-size: 30px; float: left; margin: -4px 0px 0px 20px;">START NOW</p></a>
+	<div id="callToAction">
+		<div class="container">
+			<p class="cta-text" style="color: #e5e5e5;">START A PROJECT WITH US TODAY.</p>
+			<p class="cta-text" style="color: #ec5e46; margin-left: 20px;" >CHOOSE A PACKAGE THAT SUITS YOU BEST.</p>
+			<a href=""><p class="boxButton hvr-radial-out-blue" id="startNow-CTA">START NOW</p></a>
 		</div>
 	</div>
 
-	<div id="positives">
-		<div style="
-			border-left: 1px solid #e5e5e5;
-			border-right: 1px solid #e5e5e5;
-			width: 400px;
-			height: inherit;
-			margin: 0 auto;">
-
-		</div>
+	<div id="positives-section">
+		<div class="positives-item"></div>
+		<div class="positives-item" style="border-left: 1px solid #e5e5e5;	border-right: 1px solid #e5e5e5;"></div>
+		<div class="positives-item"></div>
 	</div>
 
-	<div id="packages">
-		<div style="padding: 40px 0px 0px 25%">
-			<div id="pkg"></div>
-			<div id="pkg"></div>
-			<div id="pkg"></div>
+	<div id="packages-section">
+		<div class="pkg-item">
+			<p class="pkg-item-heading">FREE</p>
+			<p class="pkg-item-text">
+				Basically nothing.<br /><br />
+				You might get an email from us.<br /><br />
+				Time is money, idiots.
+			</p>
+			<a href="">
+				<div class="pkg-item-chooseButton hvr-back-pulse">
+					<p>CHOOSE THIS PACKAGE</p>
+				</div>
+			</a>
+		</div>
+		<div class="pkg-item">
+			<p class="pkg-item-heading">THE OTHER ONE</p>
+			<p class="pkg-item-text">
+				This is somewhere in the middle.<br /><br />
+				No idea what to write here.
+			</p>
+			<a href="">
+				<div class="pkg-item-chooseButton hvr-back-pulse">
+					<p>CHOOSE THIS PACKAGE</p>
+				</div>
+			</a>
+		</div>
+		<div class="pkg-item" style="margin-right: 0;">
+			<p class="pkg-item-heading" style="text-align: right;">PAID</p>
+			<p class="pkg-item-text" style="text-align: right;">
+				Definitely more than nothing.<br /><br />
+				You'll probably get a website out of us.<br /><br />
+				We may even meet you if the project is worth the time.<br /><br />
+				While stocks last! Our effort is limited!
+			</p>
+			<a href="">
+				<div class="pkg-item-chooseButton hvr-back-pulse">
+					<p>CHOOSE THIS PACKAGE</p>
+				</div>
+			</a>
 		</div>
 	</div>
-</div>
+</main>

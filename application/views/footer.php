@@ -12,7 +12,7 @@
 				<img src="<?php echo BASE_URL .'assets/img/p-em.png' ?>"/>
 			</a>
 		</div>
-		<p id="copyright-text">&copy; Copyright 2016 World of I.T. Pty. Ltd. All rights reserved. <a href="<?php echo BASE_URL .'privacy'; ?>">PRIVACY STATEMENT</a> <a href="<?php echo BASE_URL .'sitemap'; ?>">SITEMAP</a></p>
+		<p id="copyright-text">&copy; Copyright 2016 World of I.T - All rights reserved. <a href="<?php echo BASE_URL .'privacy'; ?>">PRIVACY STATEMENT</a> <a href="<?php echo BASE_URL .'sitemap'; ?>">SITEMAP</a></p>
 	</div>
 </footer>
 </body>

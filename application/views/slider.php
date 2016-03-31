@@ -8,7 +8,7 @@
  * */
 
 $uri = $_SERVER['REQUEST_URI'];
-$imgRoot = "http://" . $_SERVER['SERVER_NAME'] . "/world_of_it/assets/img/slider/";
+$imgRoot = BASE_URL . 'assets/img/slider/';
 
 if(strpos($uri, "world_of_it")) {
 	$numSlider = 4;
@@ -50,7 +50,7 @@ if(strpos($uri, "world_of_it")) {
 		for($i = 1; $i <= $numSlider; $i++) {
 		?>
 		<div>
-			<div id="slider_content_wrapper">
+			<div id="slider_content_wrapper"">
 				<img src="<?php echo $imgRoot . $image[$i]; ?>" id="slider_image" />
 				<div style="display: inline-block;">
 				<?php if($i == 1) { ?>

@@ -79,6 +79,14 @@
 		</div>
 	</div>
 
+	<div id="callToAction">
+		<div class="container">
+			<p class="cta-text" style="color: #e5e5e5;">START A PROJECT WITH US TODAY.</p>
+			<p class="cta-text" style="color: #ec5e46; margin-left: 20px;" >CHOOSE A PACKAGE THAT SUITS YOU BEST.</p>
+			<a href=""><p class="boxButton hvr-radial-out-blue" id="startNow-CTA">START NOW</p></a>
+		</div>
+	</div>
+
 	<div id="packages-section">
 		<a href="">
 			<div class="pkg-item hvr-ripple-out">

@@ -88,7 +88,7 @@ switch (ENVIRONMENT)
 		exit(1); // EXIT_ERROR
 }
 
-	define('BASE_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/world_of_it/');
+	define('BASE_URL', 'http://' . $_SERVER['SERVER_NAME'] . ':8080' . '/world_of_it/');
 
 /*
  *---------------------------------------------------------------

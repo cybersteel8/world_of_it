@@ -12,9 +12,47 @@
 	</div>
 
 	<div id="positives-section">
-		<div class="positives-item"></div>
-		<div class="positives-item" style="border-left: 1px solid #e5e5e5;	border-right: 1px solid #e5e5e5;"></div>
-		<div class="positives-item"></div>
+		<div class="container">
+			<div class="positives-item">
+				<h2>Mobile friendly</h2>
+				<p>
+				The products we create for you will be accessible via any means.
+				It won't matter if your users are on a mobile, tablet or a desktop,
+				you will always be able to reach them.
+				Your business will thrive all over the globe, driven by a platform-independent system
+				we hand-craft to your specification, regardless of what device your customers use.
+				</p>
+			</div>
+			<div class="positives-item">
+				<p>Website design, hand crafted</p>
+				<!--
+				World of I.T. establish a world-class standard for brilliant, attractive web interfaces.
+				We will communicate with you personally and take the time to understand
+				exactly what you want to accomplish with our service.
+				By understanding your business goals, we will build a platform to your specific needs
+				that will drive your sales through the roof, maintaining our world-class standard.
+				World of I.T. assures that your website will bring in money with style.
+				-->
+			</div>
+			<div class="positives-item">
+				<p>SEO</p>
+				<!--
+				Search Engine Optimization (SEO) is a core feature for all of our services.
+				SEO guarantees that your website will be at the top of Google's search results.
+				Using carefully-selected keyphrases, you will capture the attention of
+				potential buyers,
+				-->
+			</div>
+			<div class="positives-item">
+				<p>eCommerce, online shopping, unique online retail experience</p>
+			</div>
+			<div class="positives-item">
+				<p>Web development, programming</p>
+			</div>
+			<div class="positives-item">
+				<p>Security, privacy</p>
+			</div>
+		</div>
 	</div>
 
 	<div id="packages-section">

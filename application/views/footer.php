@@ -3,12 +3,12 @@
 		<div id="findUsFb">
 			<a href="">
 				<img src="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . '/world_of_it/assets/img/p-fb1.png' ?>" />
-				<p class="hvr-underline-from-left">Find us on Facebook</p>
+				<p class="">Find us on Facebook</p>
 			</a>
 		</div>
 		<div id="emailUs">
 			<a href="">
-				<p class="hvr-underline-from-left">Send us an email</p>
+				<p class="">Send us an email</p>
 				<img src="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . '/world_of_it/assets/img/p-em.png' ?>"/>
 			</a>
 		</div>

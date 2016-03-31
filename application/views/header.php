@@ -13,7 +13,7 @@ $base_url = 'http://' . $_SERVER['SERVER_NAME'] . '/world_of_it/';
 <body>
 	<header>
 		<div class="container">
-			<p id="mainHeading">WORLD OF I.T</p>
+			<a href=""><p id="mainHeading">WORLD OF I.T</p></a>
 			<nav>
 				<ul>
 					<li><a href="<?php echo $base_url . 'home' ?>"><p class="hvr-underline-from-left">HOME</p></a></li>
@@ -29,3 +29,4 @@ $base_url = 'http://' . $_SERVER['SERVER_NAME'] . '/world_of_it/';
 			</div>
 		</div>
 	</header>
+	<div style="height: 70px; width: 100%;"></div>

@@ -43,10 +43,10 @@ p, h1, h2, h3 {
 }
 
 header {
+	position: fixed;
 	width: 100%;
 	background: url("../img/bg-darkGrey.png");
 	box-shadow: 0 0 20px #000;
-	position: relative;
 	z-index: 2;
 }
 
@@ -69,6 +69,7 @@ footer {
 	padding: 20px;
 	background: url("../img/bg-darkGrey.png");
 	text-align: center;
+	box-shadow: 0 0 20px #000;
 }
 
 /*********** CLASSES ************/
@@ -88,9 +89,25 @@ footer {
 	padding: 6px 8px 4px 8px;
 }
 
+.slider_list {
+	list-style: square inside url('../img/bullet.png');
+	position: absolute;
+	top: 60px;
+	right: 380px;
+}
+
+.slider_header {
+	font-family: Tuffy, Helvetica, sans-serif;
+	color: #e5e5e5;
+	font-size: 24px;
+	position: absolute;
+	top: 20px;
+}
+
 .slider_text {
 	font-family: Tuffy, Helvetica, sans-serif;
 	color: #e5e5e5;
+	font-size: 16px;
 }
 
 .pkg-item {
@@ -101,6 +118,12 @@ footer {
 	text-align: left;
 	height: 600px;
 	position: relative;
+}
+
+.pkg-item:hover {
+	box-shadow: 0 0 15px #131111;
+	background-color: rgba(0,0,0,0.5);
+	bottom: 5px;
 }
 
 .pkg-item-heading {
@@ -142,14 +165,6 @@ footer {
 	width: 400px;
 	margin: 0 auto;
 	display: inline-block;
-}
-
-.tuffy-font {
-	font-family: "Tuffy", "Trebuchet MS", sans-serif;
-}
-
-.quoteInput {
-	display: block;
 }
 
 /*********** IDENTIFIERS ************/
@@ -196,22 +211,25 @@ footer {
 	left: 0;
 	width: 1280px;
 	height: 530px;
-	border-radius:5px;
+	border-radius: 5px;
 	overflow: hidden;
-	z-index:1;
-}
-
-#slider_list {
-	list-style: square inside url('../img/bullet.png');
+	z-index: 1;
 }
 
 #slider_image {
 	width: 500px;
+	display: inline-block;
+}
+
+#slider_content_wrapper {
+	background: rgba(0,0,0,0.3);
 	position: relative;
-	top: 100px;
-	bottom: 100px;
-	left: 150px;
-	right: 0;
+	top: 30px;
+	padding: 10px;
+	width: 980px;
+	height: 400px;
+	margin: auto;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5)
 }
 
 #callToAction {
@@ -251,14 +269,6 @@ footer {
 	left: 0;
 }
 
-#findUsFb p {
-	color: #e5e5e5;
-	font-size: 22px;
-	display: inline;
-	position: relative;
-	bottom: 8px;
-}
-
 #findUsFb img {
 	display: inline;
 	height: 26px;
@@ -271,18 +281,18 @@ footer {
 	right: 0;
 }
 
-#emailUs p {
+#emailUs img {
+	display: inline;
+	height: 24px;
+	padding-left: 8px;
+}
+
+#findUsFb p, #emailUs p {
 	color: #e5e5e5;
 	font-size: 22px;
 	display: inline;
 	position: relative;
-	bottom: 8px;
-}
-
-#emailUs img {
-	display: inline;
-	height: 26px;
-	padding-left: 8px;
+	bottom: 4px;
 }
 
 #copyright-text {
@@ -295,30 +305,6 @@ footer {
 #copyright-text a {
 	text-decoration: underline;
 	font-size: 10px;
-}
-
-#quoteHeader {
-	color: #1F1F1F;
-	font-size: 40px;
-	margin: auto;
-	width: 330px;
-	padding: 20px;
-}
-
-#quoteHeader2 {
-	color: #1F1F1F;
-	font-size: 30px;
-	padding: 20px;
-}
-
-#quoteHeaderSubText {
-	font-family: "Fjalla", "Trebuchet MS", sans-serif;
-	color: #1F1F1F;
-	font-size: 18px;
-	margin: auto;
-	width: 600px;
-	line-height: 1.3;
-	text-align: center;
 }
 
 /*** JSSOR Slider. Credit***/
@@ -336,7 +322,7 @@ footer {
 .jssora21l { background-position: -2px 5px; } /* left carat */
 .jssora21r { background-position: -63px 5px; } /* right carat */
 .jssora21l:hover { background-position: -31px 5px; } /* left hover */
-.jssora21r:hover { background-position: -88px 5px; } /* right hover */
+.jssora21r:hover { background-position: -90px 5px; } /* right hover */
 .jssora21l.jssora21ldn { background-position: -2px 5px; } /* left click */
 .jssora21r.jssora21rdn { background-position: -63px 5px; } /* right click */
 
@@ -358,7 +344,6 @@ footer {
 .jssorb05 .av { background-position: -69px 0; } /* active */
 .jssorb05 .av:hover { background-position: -198px 0; } /* active hover */
 .jssorb05 .dn, .jssorb05 .dn:hover { } /* hold & hold hover */
-
 
 /*** Credit to Ian Lunn @ GitHub! https://github.com/IanLunn/ ***/
 
@@ -388,8 +373,8 @@ footer {
 	transition-property: right;
 	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
+	-webkit-transition-timing-function: ease; /* line appear speed - Safari */
+	transition-timing-function: ease; /* line appear speed */
 }
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
 	right: 0;
@@ -486,13 +471,13 @@ footer {
 
 /* Back Pulse */
 @-webkit-keyframes hvr-back-pulse {
-	50% {
-		background-color: rgba(236, 94, 70, 0.5);
+	65% {
+		background-color: rgba(236, 94, 70, 0.65);
 	}
 }
 @keyframes hvr-back-pulse {
-	50% {
-		background-color: rgba(236, 94, 70, 0.5);
+	65% {
+		background-color: rgba(236, 94, 70, 0.65);
 	}
 }
 .hvr-back-pulse {
@@ -510,7 +495,7 @@ footer {
 	-webkit-transition-property: color, background-color;
 	transition-property: color, background-color;
 }
-.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active, .pkg-item:hover div {
 	-webkit-animation-name: hvr-back-pulse;
 	animation-name: hvr-back-pulse;
 	-webkit-animation-duration: 1s;

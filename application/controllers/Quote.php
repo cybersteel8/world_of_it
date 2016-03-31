@@ -15,15 +15,15 @@ class Quote extends CI_Controller {
 		}
 		elseif($refferal == 'package-small')
 		{
-			$data['quoteHeader'] = 'Hello! We have filled in some information based on ';
+			$data['quoteHeader'] = 'Hello! We have filled in some information based on the package you\'ve chosen, you can now fill in the rest of the information and we will get back to you quickly!';
 		}
 		elseif($refferal == 'package-medium')
 		{
-			$data['quoteHeader'] = '';
+			$data['quoteHeader'] = 'Hello! We have filled in some information based on the package you\'ve chosen, you can now fill in the rest of the information and we will get back to you quickly!';
 		}
 		elseif($refferal == 'package-large')
 		{
-			$data['quoteHeader'] = '';
+			$data['quoteHeader'] = 'Hello! We have filled in some information based on the package you\'ve chosen, you can now fill in the rest of the information and we will get back to you quickly!';
 		}
 
         $this->load->view('header');

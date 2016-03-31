@@ -15,5 +15,12 @@
 		<p id="copyright-text">&copy; Copyright 2016 World of I.T. Pty. Ltd. All rights reserved. <a href="<?php echo BASE_URL .'privacy'; ?>">PRIVACY STATEMENT</a> <a href="<?php echo BASE_URL .'sitemap'; ?>">SITEMAP</a></p>
 	</div>
 </footer>
+
+<script src="<?php echo BASE_URL . 'assets/js/slider/jquery-1.9.1.min.js' ?>" ></script>
+<script src="<?php echo BASE_URL . 'assets/js/slider/jssor.js' ?>" ></script>
+<script src="<?php echo BASE_URL . 'assets/js/slider/jssor.slider.js' ?>" ></script>
+<script src="<?php echo BASE_URL . 'assets/js/slider/slider.js' ?>" ></script>
+<script src="<?php echo BASE_URL . 'assets/js/main.js' ?>" ></script>
+
 </body>
 </html>

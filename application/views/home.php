@@ -14,43 +14,67 @@
 	<div id="positives-section">
 		<div class="container">
 			<div class="positives-item">
-				<h2>Mobile friendly</h2>
-				<p>
-				The products we create for you will be accessible via any means.
-				It won't matter if your users are on a mobile, tablet or a desktop,
-				you will always be able to reach them.
-				Your business will thrive all over the globe, driven by a platform-independent system
-				we hand-craft to your specification, regardless of what device your customers use.
-				</p>
+				<div class="positives-item-wrapper">
+					<h2>Mobile Friendly</h2>
+					<p>
+						It won't matter if your users are on a mobile, tablet or a desktop,
+						you will always be able to reach them.
+						Your business will thrive all over the globe, driven by a platform-independent system
+						we hand-craft to your specification, regardless of what device your customers use.
+					</p>
+				</div>
 			</div>
 			<div class="positives-item">
-				<p>Website design, hand crafted</p>
-				<!--
-				World of I.T. establish a world-class standard for brilliant, attractive web interfaces.
-				We will communicate with you personally and take the time to understand
-				exactly what you want to accomplish with our service.
-				By understanding your business goals, we will build a platform to your specific needs
-				that will drive your sales through the roof, maintaining our world-class standard.
-				World of I.T. assures that your website will bring in money with style.
-				-->
+				<div class="positives-item-wrapper">
+					<h2>Hand-crafted Website Designs</h2>
+					<p>
+						World of I.T establish a world-class standard for brilliant, attractive web interfaces.
+						We will communicate with you personally and take the time to understand
+						exactly what you want to accomplish with our service.
+						By recognizing your business goals, we will help drive your sales through the roof.
+					</p>
+				</div>
 			</div>
 			<div class="positives-item">
-				<p>SEO</p>
-				<!--
-				Search Engine Optimization (SEO) is a core feature for all of our services.
-				SEO guarantees that your website will be at the top of Google's search results.
-				Using carefully-selected keyphrases, you will capture the attention of
-				potential buyers,
-				-->
+				<div class="positives-item-wrapper">
+					<h2>SEO</h2>
+					<p>
+						Search Engine Optimization (SEO) is a core feature for all of our services.
+						SEO is responsible for boosting your website's search position.
+						Using carefully-selected keyphrases, you will capture the attention of all
+						potential buyers.
+					</p>
+				</div>
 			</div>
 			<div class="positives-item">
-				<p>eCommerce, online shopping, unique online retail experience</p>
+				<div class="positives-item-wrapper">
+					<h2>e-Commerce and Online Shops</h2>
+					<p>
+						Us at World of I.T love solving problems and enabling your business to succeed.
+						We have built top of the line e-Commerce technology using robust systems to
+						create a unique online retail experience for your users.
+					</p>
+				</div>
 			</div>
 			<div class="positives-item">
-				<p>Web development, programming</p>
+				<div class="positives-item-wrapper">
+					<h2>Web Development</h2>
+					<p>
+						The websites we develop for you meet the quality and technical standards
+						of the current internet era. Your business will benefit from the powerful
+						servers and latest technologies to deliver a great and consistent user experience.
+					</p>
+				</div>
 			</div>
 			<div class="positives-item">
-				<p>Security, privacy</p>
+				<div class="positives-item-wrapper">
+					<h2>Security &amp; Privacy</h2>
+					<p>
+						Keeping both your business' and your user's information secure is an utmost priority.
+						World of I.T employ the most advanced and modern security techniques to protect all the data
+						passed through your website, so you can rest easy that nothing is vulnerable.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>

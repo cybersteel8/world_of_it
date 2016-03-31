@@ -25,11 +25,6 @@ table {
 /*********** CSS RESET END ************/
 
 @font-face {
-	font-family: "Tuffy";
-	src: url("../fonts/Tuffy-webfont.woff");
-}
-
-@font-face {
 	font-family: "Fjalla";
 	src: url("../fonts/fjalla.otf");
 }
@@ -98,7 +93,7 @@ footer {
 }
 
 .slider_header {
-	font-family: Tuffy, Helvetica, sans-serif;
+	font-family: Fjalla, Helvetica, sans-serif;
 	color: #e5e5e5;
 	font-size: 24px;
 	position: absolute;
@@ -106,7 +101,7 @@ footer {
 }
 
 .slider_text {
-	font-family: Tuffy, Helvetica, sans-serif;
+	font-family: Fjalla, Helvetica, sans-serif;
 	color: #e5e5e5;
 	font-size: 16px;
 }
@@ -119,23 +114,29 @@ footer {
 
 .positives-item {
 	height: 310px;
-	width: 400px;
+	width: 350px;
 	margin: 0 auto;
-	display: inline-block;
-	border: solid 1px #e5e5e5;
-	vertical-align: middle;
-	padding: 5px;
+	display: inline-table;
 
+	vertical-align: middle;
+	padding: 25px;
+}
+
+.positives-item-wrapper {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .positives-item p,h2 {
-	font-size: 16px;
+	font-size: 17px;
 	color: #e5e5e5;
-	font-family: Tuffy, Helvetica, sans-serif;
+	font-family: Fjalla, Helvetica, sans-serif;
+	line-height: 1.5;
 }
 
 .positives-item h2 {
-	font-size: 24px;
+	font-size: 26px;
+	padding-bottom: 8px;
 }
 
 .pkg-item {
@@ -162,7 +163,7 @@ footer {
 
 .pkg-item-text {
 	font-size: 18px;
-	font-family: Tuffy, Helvetica, sans-serif;
+	font-family: Fjalla, Helvetica, sans-serif;
 	color: #e5e5e5;
 	margin: 20px;
 }
@@ -311,7 +312,7 @@ footer {
 }
 
 #copyright-text {
-	font-family: "Tuffy", "Trebuchet MS", sans-serif;
+	font-family: "Arial", sans-serif;
 	font-size: 10px;
 	color: #EC5E46;
 	padding-top: 48px;

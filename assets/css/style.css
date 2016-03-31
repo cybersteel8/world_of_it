@@ -307,6 +307,50 @@ footer {
 	font-size: 10px;
 }
 
+#quoteHeader {
+	color: #1F1F1F;
+	font-size: 40px;
+	margin: auto;
+	width: 330px;
+	padding: 20px;
+}
+
+#quoteHeader2 {
+	color: #1F1F1F;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#quoteHeaderSubText {
+	font-family: "Fjalla", "Trebuchet MS", sans-serif;
+	color: #1F1F1F;
+	font-size: 18px;
+	margin: auto;
+	width: 600px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+#quoteForm {
+
+}
+
+#quoteFormColumn {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+
+#quoteForm label {
+	font-family: "Fjalla", "Trebuchet MS", sans-serif;
+	font-size: 18px;
+}
+
+#quoteForm input {
+	display: block;
+	padding: 5px;
+}
+
 /*** JSSOR Slider. Credit***/
 .jssora21l, .jssora21r {
 	display: block;

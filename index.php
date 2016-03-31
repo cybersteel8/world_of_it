@@ -88,6 +88,8 @@ switch (ENVIRONMENT)
 		exit(1); // EXIT_ERROR
 }
 
+	define('BASE_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/world_of_it/');
+
 /*
  *---------------------------------------------------------------
  * SYSTEM FOLDER NAME

@@ -346,6 +346,26 @@ footer {
 	text-align: center;
 }
 
+#quoteForm {
+
+}
+
+#quoteFormColumn {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+
+#quoteForm label {
+	font-family: "Fjalla", "Trebuchet MS", sans-serif;
+	font-size: 18px;
+}
+
+#quoteForm input {
+	display: block;
+	padding: 5px;
+}
+
 /*** JSSOR Slider. Credit***/
 .jssora21l, .jssora21r {
 	display: block;

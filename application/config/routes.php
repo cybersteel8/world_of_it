@@ -61,3 +61,4 @@ $route['about'] = 'main/about';
 $route['login'] = 'main/login';
 $route['quote'] = 'quote/quote_page';
 $route['quote/(:any)'] = 'quote/quote_page/$1';
+$route['quoteSubmit'] = 'quote/quoteSubmit';

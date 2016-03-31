@@ -30,4 +30,26 @@ class Quote extends CI_Controller {
         $this->load->view('quote', $data);
         $this->load->view('footer');
 	}
+
+	public function quoteSubmit()
+	{
+		$this->load->library('form_validation');
+
+		$this->form_validation->set_rules('account', 'Default Account', 'trim|required');
+		$this->form_validation->set_rules('address', 'Default Address', 'trim|required');
+		$this->form_validation->set_rules('userEmail', 'E-mail', 'trim|required|valid_email');
+		$this->form_validation->set_rules('userFirstname', 'First Name', 'trim|required');
+		$this->form_validation->set_rules('userLastname', 'Last Name', 'trim|required');
+
+		$data['account'] = $this->input->post('account');
+		$data['address'] = $this->input->post('address');
+		$data['userEmail'] = $this->input->post('userEmail');
+		$data['userFirstname'] = $this->input->post('userFirstname');
+		$data['userLastname'] = $this->input->post('userLastname');
+
+		if ($this->form_validation->run() == FALSE)
+		{
+
+		}
+	}
 }

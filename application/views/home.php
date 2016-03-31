@@ -89,7 +89,7 @@
 
 	<div id="packages-section">
 		<a href="">
-			<div class="pkg-item hvr-ripple-out">
+			<div class="pkg-item">
 				<p class="pkg-item-heading">FREE</p>
 				<p class="pkg-item-text">
 					Basically nothing.<br /><br />
@@ -102,20 +102,20 @@
 			</div>
 		</a>
 		<a href="">
-			<div class="pkg-item hvr-ripple-out">
+			<div class="pkg-item">
 				<p class="pkg-item-heading">THE OTHER ONE</p>
 				<p class="pkg-item-text">
 					This is somewhere in the middle.<br /><br />
 					No idea what to write here.
 				</p>
 
-				<div class="pkg-item-chooseButton hvr-back-pulse">
+				<div class="pkg-item-chooseButton">
 					<p>CHOOSE THIS PACKAGE</p>
 				</div>
 			</div>
 		</a>
 		<a href="">
-			<div class="pkg-item hvr-ripple-out" style="margin-right: 0;">
+			<div class="pkg-item" style="margin-right: 0;">
 				<p class="pkg-item-heading" style="text-align: right;">PAID</p>
 				<p class="pkg-item-text" style="text-align: right;">
 					Definitely more than nothing.<br /><br />

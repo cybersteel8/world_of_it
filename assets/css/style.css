@@ -53,7 +53,11 @@ nav {
 
 nav li {
 	display: inline-block;
-	margin-left: 38px;
+}
+
+nav a {
+	padding: 20px 25px;
+	display: inline-block;
 }
 
 nav p {
@@ -190,6 +194,20 @@ footer {
 	font-size: 60px;
 	vertical-align: middle;
 	display: inline-block;
+}
+
+#services_link:hover div {
+	display: block;
+	position: absolute;
+	box-shadow: 0 0 15px #1f1d1d;
+}
+
+#services_menu {
+	background: url("../img/bg-darkGrey.png");
+	border-bottom-left-radius: 13px;
+	border-bottom-right-radius: 13px;
+	position: absolute;
+	display: none;
 }
 
 #login-wrapper {
@@ -384,7 +402,6 @@ footer {
 	background: url("../img/slider/arrows.png") center center no-repeat;
 	overflow: hidden;
 }
-
 .jssora21l { background-position: -2px 5px; } /* left carat */
 .jssora21r { background-position: -63px 5px; } /* right carat */
 .jssora21l:hover { background-position: -31px 5px; } /* left hover */
@@ -395,7 +412,6 @@ footer {
 .jssorb05 {
 	position: absolute;
 }
-
 .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
 	position: absolute;
 	/* size of bullet element */
@@ -442,7 +458,7 @@ footer {
 	-webkit-transition-timing-function: ease; /* line appear speed - Safari */
 	transition-timing-function: ease; /* line appear speed */
 }
-.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before, nav > ul > li:hover > a > p:before, .services_item:hover p:before {
 	right: 0;
 }
 

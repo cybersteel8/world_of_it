@@ -29,11 +29,16 @@ table {
 }
 
 @font-face {
+	font-family: "Fjalla";
+	src: url("../fonts/fjalla.otf");
+}
+
+@font-face {
 	font-family: "League Gothic";
 	src: url("../fonts/leaguegothic-regular-webfont.ttf");
 }
 
-p {
+p, h1, h2, h3 {
 	font-family: "League Gothic", Tahoma, sans-serif;
 }
 
@@ -300,6 +305,30 @@ footer {
 #copyright-text a {
 	text-decoration: underline;
 	font-size: 10px;
+}
+
+#quoteHeader {
+	color: #1F1F1F;
+	font-size: 40px;
+	margin: auto;
+	width: 330px;
+	padding: 20px;
+}
+
+#quoteHeader2 {
+	color: #1F1F1F;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#quoteHeaderSubText {
+	font-family: "Fjalla", "Trebuchet MS", sans-serif;
+	color: #1F1F1F;
+	font-size: 18px;
+	margin: auto;
+	width: 600px;
+	line-height: 1.3;
+	text-align: center;
 }
 
 /*** JSSOR Slider. Credit***/

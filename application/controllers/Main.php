@@ -7,6 +7,7 @@ class Main extends CI_Controller {
 	{
         $this->load->view('header');
 		$this->load->view('home');
+		$this->load->view('login');
 		$this->load->view('footer');
 	}
 
@@ -14,6 +15,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('projects');
+		$this->load->view('login');
 		$this->load->view('footer');
 	}
 
@@ -21,6 +23,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('services');
+		$this->load->view('login');
 		$this->load->view('footer');
 	}
 
@@ -28,13 +31,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('about');
-		$this->load->view('footer');
-	}
-
-	public function login()
-	{
-		$this->load->view('header');
-		$this->load->view('home');
+		$this->load->view('login');
 		$this->load->view('footer');
 	}
 
@@ -42,6 +39,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('home');
+		$this->load->view('login');
 		$this->load->view('footer');
 	}
 
@@ -49,6 +47,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('home');
+		$this->load->view('login');
 		$this->load->view('footer');
 	}
 }

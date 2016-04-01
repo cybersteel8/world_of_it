@@ -9,10 +9,7 @@
 	<script src="<?php echo BASE_URL . 'assets/js/slider/jssor.slider.js' ?>" ></script>
 	<script src="<?php echo BASE_URL . 'assets/js/slider/slider.js' ?>" ></script>
 	<script>
-		function login_activated () {
-			var login_container = document.getElementById("login_container");
-			loginBox.style.display = "block";
-		}
+
 	</script>
 </head>
 <body>
@@ -37,7 +34,7 @@
 				</ul>
 			</nav>
 			<div id="login-wrapper">
-				<p class="boxButton hvr-radial-out-white" id="logIn" onclick="login_activated()">LOG IN</p>
+				<p class="boxButton hvr-radial-out-white" id="logIn">LOG IN</p>
 				<p id="or">OR</p>
 				<a href="<?php echo BASE_URL . 'quote/start-now-header/' ?>"><p class="boxButton hvr-radial-out-blue">START NOW</p></a>
 			</div>

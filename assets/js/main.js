@@ -39,3 +39,15 @@ function validatePhone(x){
 		return false;
 	}
 }
+
+$("#logIn").on("click",
+	function() {
+		document.getElementById("login_box_background").style.display = "block";
+		document.getElementById("login_box").style.display = "block";
+	});
+
+$("#login_box_background").on("click",
+	function() {
+		document.getElementById("login_box_background").style.display = "none";
+		document.getElementById("login_box").style.display = "none";
+	});

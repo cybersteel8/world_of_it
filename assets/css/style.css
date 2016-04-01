@@ -358,7 +358,7 @@ footer {
 #quoteHeader2 {
 	color: #1F1F1F;
 	font-size: 30px;
-	padding: 20px;
+	margin-bottom: 10px;
 }
 
 #quoteHeaderSubText {
@@ -372,23 +372,52 @@ footer {
 }
 
 #quoteForm {
-
+	font-family: "Fjalla", "Trebuchet MS", sans-serif;
+	margin-top: 10px;
 }
 
-#quoteFormColumn {
-	display: inline-block;
-	width: 33%;
+.quoteFormSection {
+	width: 800px;
+	padding: 20px;
+	margin: auto;
 	vertical-align: top;
 }
 
-#quoteForm label {
-	font-family: "Fjalla", "Trebuchet MS", sans-serif;
+.quoteFormSection table {
+	width: 100%;
+}
+
+.tableLabel {
+	text-align: right;
+	padding-right: 15px;
+	width: 40%;
+}
+
+.tableInput::before {
+	content: ">";
 	font-size: 18px;
 }
 
+#quoteForm label {
+	font-size: 18px;
+	text-align: right;
+}
+
 #quoteForm input {
-	display: block;
-	padding: 5px;
+	font-size: 18px;
+	margin: 5px;
+	background: transparent;
+	border: none;
+	border-bottom: #595653 1px solid;
+}
+
+#quoteForm input:focus {
+	outline: none;
+	border-bottom: #EC5E46 1px solid;
+}
+
+#quoteEmailError, #quoteFNameError, #quoteLNameError, #quotePhoneError {
+	font-size: 14px;
 }
 
 /*** JSSOR Slider. Credit***/

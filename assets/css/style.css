@@ -210,6 +210,19 @@ footer {
 	display: none;
 }
 
+#services_menu li {
+	display: block;
+}
+
+#services_menu a {
+	padding: 14px 18px;
+	width: 100%;
+}
+
+#services_menu p {
+	font-size: 24px;
+}
+
 #login-wrapper {
 	display: inline-block;
 	position: absolute;
@@ -354,7 +367,7 @@ footer {
 	bottom: 4px;
 }
 
-#findUsFb p:hover, #emailUs p:hover {
+#findUsFb a:hover p, #emailUs a:hover p {
 	color: #EC5E46;
 }
 
@@ -510,7 +523,7 @@ footer {
 	-webkit-transition-timing-function: ease; /* line appear speed - Safari */
 	transition-timing-function: ease; /* line appear speed */
 }
-.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before, nav > ul > li:hover > a > p:before, .services_item:hover p:before {
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before, nav > ul > li:hover > a > p:before, .services_menu_item:hover p:before {
 	right: 0;
 }
 

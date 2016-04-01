@@ -8,14 +8,20 @@
 	<script src="<?php echo BASE_URL . 'assets/js/slider/jssor.js' ?>" ></script>
 	<script src="<?php echo BASE_URL . 'assets/js/slider/jssor.slider.js' ?>" ></script>
 	<script src="<?php echo BASE_URL . 'assets/js/slider/slider.js' ?>" ></script>
+	<script>
+		function login_activated () {
+			var login_container = document.getElementById("login_container");
+			loginBox.style.display = "block";
+		}
+	</script>
 </head>
 <body>
 	<header>
 		<div class="container" style="padding:0;">
-			<a href="<?php echo BASE_URL . 'home' ?>"><p id="mainHeading">WORLD OF I.T</p></a>
+			<a href="<?php echo BASE_URL ?>"><p id="mainHeading">WORLD OF I.T</p></a>
 			<nav>
 				<ul style="margin-left: 20px;">
-					<li><a href="<?php echo BASE_URL . 'home' ?>"><p class="hvr-underline-from-left">HOME</p></a></li>
+					<li><a href="<?php echo BASE_URL ?>"><p class="hvr-underline-from-left">HOME</p></a></li>
 					<li><a href="<?php echo BASE_URL . 'projects' ?>"><p class="hvr-underline-from-left">PROJECTS</p></a></li>
 					<li id="services_link"><a href="<?php echo BASE_URL . 'services' ?>"><p class="hvr-underline-from-left">SERVICES</p></a>
 						<div id="services_menu">
@@ -31,7 +37,7 @@
 				</ul>
 			</nav>
 			<div id="login-wrapper">
-				<a href="<?php echo BASE_URL . 'login' ?>"><p class="boxButton hvr-radial-out-white" id="logIn">LOG IN</p></a>
+				<p class="boxButton hvr-radial-out-white" id="logIn" onclick="login_activated()">LOG IN</p>
 				<p id="or">OR</p>
 				<a href="<?php echo BASE_URL . 'quote/start-now-header/' ?>"><p class="boxButton hvr-radial-out-blue">START NOW</p></a>
 			</div>

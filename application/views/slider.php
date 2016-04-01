@@ -43,26 +43,26 @@ if(strpos($uri, "world_of_it")) {
 		</div>
 	</div> -->
 	<!-- Slides Container -->
-	<div u="slides" style="cursor: move; position: relative; left: 0; top: 0; width: 1280px;
-		height: 530px; overflow: hidden;">
+	<div u="slides" style="cursor: ew-resize; position: relative; left: 0; top: 0; width: 1280px; height: 530px; overflow: hidden;">
 		<?php
-
 		for($i = 1; $i <= $numSlider; $i++) {
 		?>
 		<div>
-			<div id="slider_content_wrapper"">
+			<div id="slider_content_wrapper">
 				<img src="<?php echo $imgRoot . $image[$i]; ?>" id="slider_image" />
 				<div style="display: inline-block;">
-				<?php if($i == 1) { ?>
-					<p class="slider_header" style="right: 70px;">LOREM IPSUM DOLOR SIT AMET!</p>
+				<?php if($i == 1) {?>
+					<p class="slider_header" style="right: 200px;">Slide One!</p>
 					<ul class="slider_list">
 						<li><p class="slider_text">Test text</p></li>
 					</ul>
 				<?php } else if($i == 2) {?>
 					<p class="slider_header" style="right: 200px;">Slide Two!</p>
-					<ul class="slider_list"><li><p class="slider_text">Test item</p></li></ul>
 				<?php } else if($i == 3) {?>
 					<p class="slider_header" style="right: 200px;">Slide Three!</p>
+					<ul class="slider_list">
+						<li><p class="slider_text">Test text</p></li>
+					</ul>
 				<?php } else if($i == 4) {?>
 					<p class="slider_header" style="right: 200px;">Slide Four!</p>
 				<?php } ?>

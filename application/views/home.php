@@ -131,3 +131,8 @@
 		</a>
 	</div>
 </main>
+<div id="login_container">
+	<div id="login_box">
+
+	</div>
+</div>

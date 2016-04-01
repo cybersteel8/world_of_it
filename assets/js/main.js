@@ -51,3 +51,16 @@ $("#login_box_background").on("click",
 		document.getElementById("login_box_background").style.display = "none";
 		document.getElementById("login_box").style.display = "none";
 	});
+
+$("#projects-page img").on("click",
+	function() {
+		console.log("image clicked!");
+		document.getElementById("project_img_background").style.display = "block";
+		document.getElementById("project_img").style.display = "block";
+	});
+
+$("#project_img_background").on("click",
+	function() {
+		document.getElementById("project_img_background").style.display = "none";
+		document.getElementById("project_img").style.display = "none";
+	});
